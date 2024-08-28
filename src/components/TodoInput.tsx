@@ -22,7 +22,8 @@ function TodoInput(props: TodoInputProps) {
   return (
     <form onSubmit={handleSubmit}>
       <input
-        type="text"
+        type="text" 
+        className='inputMargin'
         value={input}
         onChange={handleChange}
         placeholder="Ajouter une tâche"
